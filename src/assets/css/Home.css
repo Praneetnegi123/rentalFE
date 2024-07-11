@@ -1,0 +1,19 @@
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: scroll 30s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scrolling-item {
+    flex: 0 0 auto;
+  }
+  
